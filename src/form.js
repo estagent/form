@@ -1,9 +1,8 @@
 import {error as loaderError} from '@revgaming/errors'
 import cloneDeep from 'lodash.clonedeep'
 import {reactive} from 'vue'
-import {request} from './request'
 
-export default function(...args) {
+export default function(request, ...args) {
   const data = (typeof args[0] === 'string' ? args[1] : args[0]) || {}
   let defaults = cloneDeep(data)
   let recentlySuccessfulTimeoutId = null
