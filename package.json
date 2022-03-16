@@ -1,0 +1,26 @@
+{
+  "name": "@revgaming/form",
+  "version": "2.0.4",
+  "author": "estagent <estagent@gmail.com>",
+  "description": "vue3 form module for revgaming session",
+  "keywords": [
+    "javascript",
+    "revgaming",
+    "session",
+    "http",
+    "form",
+    "vue",
+    "vue3"
+  ],
+  "homepage": "https://github.com/estagent/form",
+  "main": "src/form.js",
+  "dependencies": {
+    "@revgaming/errors": "^1.0.2",
+    "lodash": "^4.17.19",
+    "lodash.clonedeep": "^4.5.0",
+    "vue": "^3.0.4"
+  },
+  "scripts": {
+    "test": "node ./test.js"
+  }
+}
